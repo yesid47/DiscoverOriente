@@ -44,11 +44,6 @@ body{
     border-top:3px solid #61dafb;
 }
 
-.center{
-    width: 75%;
-    margin: 0px auto;
-}
-
 .clearfix{
     clear: both;
     float: none;
@@ -185,8 +180,26 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     text-align: center;
 }
 
+#slider table{
+    align-items: center;
+    table-layout: auto;
+}
+
+#slider button{
+    position:relative;
+    top:50px;
+    align-content: center;
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+
+#card-slide{
+    column-count:4;
+}
+
 .card{
-    position:absolute;
+    /*position:absolute;*/
     margin:auto;
     background: black;
     height:300px;
@@ -234,6 +247,32 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
   grid-gap: 1rem;
   grid-auto-flow: row dense;
   
+}
+
+#contenedor-grid{
+    position: relative;
+}
+
+#contenedor-gridB{
+  grid-column: span 1;
+  grid-row: span 2;
+  width: 600px;
+}
+
+#contenedor-gridB h5{
+    vertical-align: middle;
+    bottom: 50px;
+    position: relative;
+    color: fuchsia;
+    text-align: center;
+}
+
+#contenedor-grid h5{
+    vertical-align: middle;
+    bottom: 50px;
+    position: relative;
+    color: fuchsia;
+    text-align: center;
 }
 
 
@@ -294,6 +333,8 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
 .grid-gallery__image:hover {
     filter: grayscale(80%);
 }
+
+
 
 /*Responsive*/
 /*Desde la altura 0px hasta ka anchura 1488px de pantalla*/
@@ -372,16 +413,30 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     }
     
       #slider{
-        height: 180px;
+        height: 1400px;
     }
 
-    #slider h1{
-        font-size: 19px;
-        padding-top: 30px;
-    }
 
-    #slider -btn-white{
-        margin-top:20px;
+    #slider button{
+    }
+    
+    #slider table{
+        width:260px;
+    }
+    
+    #card-slide{
+        column-count:1;
+    }
+    
+    .card{
+        
+    }
+    
+    .card-img-top{
+      
+    }
+    .card-text{
+       
     }
 
 }
