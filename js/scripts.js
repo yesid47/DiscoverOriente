@@ -1,12 +1,20 @@
 $(document).on('ready', function () {
-            $(".post-wrapper").slick({
-                slidesToShow: 3,
-                autoplay: true,
-                slidesToScroll: 1,
-                autoplaySpeed: 2000,
-                nextArrow: $('.next'),
-                prevArrow: $('.prev'),
-                responsive: [
+    
+      $(".slickNormalAdaptive").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      adaptiveHeight: true
+       });
+    
+    $(".post-wrapper").slick({
+        slidesToShow: 3,
+        autoplay: true,
+        slidesToScroll: 1,
+        autoplaySpeed: 2000,
+        nextArrow: $('.next'),
+        prevArrow: $('.prev'),
+        responsive: [
     {
       breakpoint: 1024,
       settings: {
@@ -35,4 +43,6 @@ $(document).on('ready', function () {
     // instead of a settings object
   ]
  });
+
+    
 });
