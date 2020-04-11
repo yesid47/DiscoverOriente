@@ -41,8 +41,12 @@ $(document).on('ready', function () {
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
-  ]
- });
-
+    ]
+    });
+    
+    $('.menu-toggle').click(function(){
+        $('nav').toggleClass('active')
+    });
+    
     
 });
