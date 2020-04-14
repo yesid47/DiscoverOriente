@@ -449,7 +449,6 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
 
-
 .post-slider .post-wrapper .post .post-info{
     height: 130px;
     padding: 0px 5px;
@@ -473,10 +472,18 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     border-radius: 50%;
     /*border-top-left-radius:5px;
     border-bottom-right-radius: 5px;*/
-    margin-bottom: 0px;
-    
-    
+    margin-bottom: 0px; 
 }
+
+.imageInfo{
+    width: 500px;
+}
+
+.texto-oriente{
+    text-align: justify;
+    margin:50px;
+}
+
 
 /*Responsive*/
 /*Desde la altura 0px hasta ka anchura 1488px de pantalla*/
@@ -563,6 +570,9 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
 
     #menu{
         width: 100%;
+    }
+    .imageInfo{
+        width:75%;
     }
 }
 

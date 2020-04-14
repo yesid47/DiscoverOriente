@@ -4,5 +4,4 @@ $(document).on('ready', function () {
         $('nav').toggleClass('active')
     });
     
-    
 });
