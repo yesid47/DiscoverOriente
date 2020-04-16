@@ -220,6 +220,7 @@ header nav ul li{
 
 #slider{
     width:100%;
+
     height: 500px;
     /*line-height: 320px;*/
     color: white;
@@ -264,8 +265,6 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
 .card{
     /*position:absolute;*/
     margin:auto;
-    background: black;
-    height:300px;
 }
 
 .card-img-top{
@@ -410,7 +409,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     text-align: center;
     margin: 30px auto;
     font-style: italic;
-    
+
 }
 
 .post-slider .next2,
@@ -641,7 +640,6 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
         width: 100%;
     }
     
-    
     #slider h1{
         padding-top:115px ;
         font-size:25px;
@@ -710,7 +708,6 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     #card-slide{
         column-count:1;
     }
-    
 }
 
 @media(max-width: 300px){
