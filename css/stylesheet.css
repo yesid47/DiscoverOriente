@@ -501,6 +501,26 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     margin:50px;
 }
 
+.imageSecurity{
+    width: 600px;
+    margin:20px;
+}
+.numeros{
+    text-align: center;
+    position: static;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.contenedor-security{
+   
+}
+
+/*br{
+    clear:both;
+}
+*/
 
 /*Responsive*/
 /*Desde la altura 0px hasta ka anchura 1488px de pantalla*/
@@ -588,6 +608,8 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     #menu{
         width: 100%;
     }
+    
+    .imageSecurity,
     .imageInfo{
         width:75%;
     }
@@ -623,6 +645,10 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5242471988
     #slider h1{
         padding-top:115px ;
         font-size:25px;
+    }
+    
+    .numeros{
+        margin:10px;
     }
     
     
